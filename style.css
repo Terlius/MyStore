@@ -38,15 +38,67 @@ h1 {
   grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
   gap: 0.5em;
   margin-top: 2em;
+  margin-left: 2rem;
   justify-items: center;
   .perfil img{
     width: 200px;
+    border-radius: 15px;
   }
   
   
 }
 
+button{
+  background-color: #0d9c7d;
+  color: #ffffff;
+  border-radius: 15px !important;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
 
+button:hover{
+  background-color: #77a097;
+  color: #ffffff;
+  border-radius: 15px !important;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
 
+img{
+  margin-top: 15px;
+}
 
+.clientes{
+  margin-left: 38%;
+  margin-right: 40%;
+  margin-top: 6px;
+}
 
+.profile-clickable {
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Agregar una transición suave */
+}
+
+.profile-clickable:hover {
+  transform: scale(1.1); /* Agrandar el perfil en un 10% al pasar el cursor */
+}
+
+nav{
+  background-color: #0d9c7d;
+  color: #ffffff;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.navbar-brand{
+  color: #ffffff !important;
+  margin: 8px;
+  font-weight: bolder;
+}
+
+form {
+  max-width: 400px; /* Ajusta el ancho máximo del formulario según tus preferencias */
+  margin: 0 auto; /* Centra el formulario horizontalmente */
+}

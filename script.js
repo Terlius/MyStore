@@ -41,11 +41,11 @@ function generateEpaycoButton(button) {
     epaycoButton.setAttribute("data-epayco-external", "false");
     epaycoButton.setAttribute(
       "data-epayco-response",
-      "http://localhost/Daniela/response.html"
+      "http://localhost/MyStore/response.html"
     );
     epaycoButton.setAttribute(
       "data-epayco-confirmation",
-      "http://localhost/Daniela/confirmation.php"
+      "http://localhost/MyStore/confirmation.php"
     );
     epaycoButton.setAttribute("data-epayco-methodconfirmation", "get");
     epaycoButton.setAttribute("data-epayco-name", name);
